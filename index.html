@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/logo-title.png" type="image/x-icon" />
+    <title>Đông Sài Gòn</title>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- BOXICON -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="css/swiper.css" />
+    <!-- RESET CSS  -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- BEGIN NAV -->
+    <header>
+      <div class="container p-0">
+        <nav id="nav" class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="/"
+            ><img
+              src="img/logo-white.png"
+              class="img-fluid"
+              style="width: 350px"
+              alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Đấu giá
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Tài sàn đang đấu giá</a>
+                  <a class="dropdown-item" href="#">Tài sản sắp đấu giá</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Liên hệ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Giới thiệu</a>
+              </li>
+              <li class="nav-item w-25">
+                <a class="btn btn-sign-in mr-1" href="#">Đăng nhập </a>
+                <a class="btn btn-sign-up" href="#">Đăng ký</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- END NAV -->
+    <!-- BEGIN CAROUSEL -->
+    <div
+      id="carouselExampleIndicators"
+      class="container carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/auction.jpg" class="img-fluid w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/200lab-education-golang-flutter-software-engineer-1.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/Can-reforms-in-property-auctions-help-real-estate-during-COVID-19-FB-1200x700-compressed.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+    </div>
+    <!-- END CAROUSEL  -->
+
+    <main class="con">
+      <!-- BEGIN CATEGORY -->
+      <section id="category">
+        <div class="container p-0">
+          <div class="category-title"><h3>Danh Mục</h3></div>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <a class="swiper-slide" href="#"
+                ><img src="img/city.jpg" class="img-fluid" alt="" />
+                <div class="swiper-slide-content">
+                  <p>Bất động sản</p>
+                </div>
+              </a>
+              <a class="swiper-slide" href="#"
+                ><img src="img/car.jpg" class="img-fluid" alt="" />
+                <div class="swiper-slide-content">
+                  <p>Ô tô</p>
+                </div>
+              </a>
+              <a class="swiper-slide" href="#"
+                ><img src="img/bag.jpg" class="img-fluid" alt="" />
+                <div class="swiper-slide-content">
+                  <p>Hàng hiệu</p>
+                </div>
+              </a>
+              <a class="swiper-slide" href="#"
+                ><img src="img/suutam.jpg" class="img-fluid" alt="" />
+                <div class="swiper-slide-content">
+                  <p>
+                    Sưu tầm <br />
+                    Nghệ thuật
+                  </p>
+                </div>
+              </a>
+              <a class="swiper-slide" href="#"
+                ><img src="img/pc.jpg" class="img-fluid" alt="" />
+                <div class="swiper-slide-content">
+                  <p>Tài sản thanh lý</p>
+                </div>
+              </a>
+              <a class="swiper-slide" href="#"
+                ><img src="img/taisankhac.jpg" class="img-fluid" alt="" />
+                <div class="swiper-slide-content">
+                  <p>Tài sản khác</p>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </section>
+      <!-- END CATEGORY -->
+      <!-- BEGIN AUCTIONING -->
+      <section id="auctioning">
+        <div class="container">
+          <div class="auctioning-title">
+            <i class="bx bxs-circle mr-2"></i>
+            <h3>Tài sản đang đấu giá</h3>
+          </div>
+          <div class="row mx-2">
+            <div class="col-6 p-2">
+              <div class="auctioning-item">
+                <div class="row">
+                  <a class="col-4" href="#">
+                    <img src="img/bag.jpg" class="img-fluid" alt="" />
+                  </a>
+                  <div class="col-8 pl-0">
+                    <p>Hàng Hiệu</p>
+                    <h3 class="auctioning-name">
+                      Cáp đồng viễn thông các loại thanh lý dạng phế liệu của
+                      Viễn thông Cần Thơ.
+                    </h3>
+                    <div class="auctioning-content">
+                      <div class="auctioning-highest">
+                        <a href="#">
+                          <img src="img/hammer.png" class="img-fluid" alt=""
+                        /></a>
+                        1.000.000.000đ
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 p-2">
+              <div class="auctioning-item">
+                <div class="row">
+                  <a class="col-4" href="#">
+                    <img src="img/bag.jpg" class="img-fluid" alt="" />
+                  </a>
+                  <div class="col-8 pl-0">
+                    <p>Hàng Hiệu</p>
+                    <h3 class="auctioning-name">
+                      Cáp đồng viễn thông các loại thanh lý dạng phế liệu của
+                      Viễn thông Cần Thơ.
+                    </h3>
+                    <div class="auctioning-content">
+                      <div class="auctioning-highest">
+                        <a href="#">
+                          <img src="img/hammer.png" class="img-fluid" alt=""
+                        /></a>
+                        1.000.000.000đ
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 p-2">
+              <div class="auctioning-item">
+                <div class="row">
+                  <a class="col-4" href="#">
+                    <img src="img/bag.jpg" class="img-fluid" alt="" />
+                  </a>
+                  <div class="col-8 pl-0">
+                    <p>Hàng Hiệu</p>
+                    <h3 class="auctioning-name">
+                      Cáp đồng viễn thông các loại thanh lý dạng phế liệu của
+                      Viễn thông Cần Thơ.
+                    </h3>
+                    <div class="auctioning-content">
+                      <div class="auctioning-highest">
+                        <a href="#">
+                          <img src="img/hammer.png" class="img-fluid" alt=""
+                        /></a>
+                        1.000.000.000đ
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 p-2">
+              <div class="auctioning-item">
+                <div class="row">
+                  <a class="col-4" href="#">
+                    <img src="img/bag.jpg" class="img-fluid" alt="" />
+                  </a>
+                  <div class="col-8 pl-0">
+                    <p>Hàng Hiệu</p>
+                    <h3 class="auctioning-name">
+                      Cáp đồng viễn thông các loại thanh lý dạng phế liệu của
+                      Viễn thông Cần Thơ.
+                    </h3>
+                    <div class="auctioning-content">
+                      <div class="auctioning-highest">
+                        <a href="#">
+                          <img src="img/hammer.png" class="img-fluid" alt=""
+                        /></a>
+                        1.000.000.000đ
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END AUCTIONING -->
+      <!-- BEGIN GOING AUCTION -->
+      <section id="going">
+        <div class="container">
+          <div class="going-title">
+            <i class="bx bxs-right-arrow mr-2"></i>
+            <h3>Tài sản sắp đấu giá</h3>
+          </div>
+          <div class="row">
+            <div class="col-4 p-2">
+              <div class="going-item">
+                <div class="going-item-img">
+                  <img src="img/bag.png" class="img-fluid" alt="" />
+                  <div class="going__overlay"></div>
+                    <div class="going__play">
+                      <a href="#">
+                        <h5>Thời kết thúc đăng ký</h5>
+                        <p>21/12/2021 08:30</p>
+                        <h5>Thời gian bắt đầu đấu giá </h5>
+                        <p>21/01/2022 08:30</p>
+                      </a>
+                    </div>
+                </div>
+                <div class="going-content">
+                  <p>Hàng Hiệu</p>
+                  <h3>
+                    Cáp đồng viễn thông các loại thanh lý dạng phế liệu của Viễn
+                    thông Cần Thơ
+                  </h3>
+                
+                  <div class="going-starting-price mt-1">
+                    <h4>2.000.0000.000đ</span></h4>
+                  </div>
+                  <a class="btn btn-sign-up going_btn" href="#">
+                    Đăng Ký tham gia đấu giá
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 p-2">
+              <div class="going-item">
+                <div class="going-item-img">
+                  <img src="img/bag.png" class="img-fluid" alt="" />
+                  <div class="going__overlay"></div>
+                    <div class="going__play">
+                      <a href="#">
+                        <h5>Thời kết thúc đăng ký</h5>
+                        <p>21/12/2021 08:30</p>
+                        <h5>Thời gian bắt đầu đấu giá </h5>
+                        <p>21/01/2022 08:30</p>
+                      </a>
+                    </div>
+                </div>
+                <div class="going-content">
+                  <p>Hàng Hiệu</p>
+                  <h3>
+                    Cáp đồng viễn thông các loại thanh lý dạng phế liệu của Viễn
+                    thông Cần Thơ
+                  </h3>
+                
+                  <div class="going-starting-price mt-1">
+                    <h4>2.000.0000.000đ</span></h4>
+                  </div>
+                  <a class="btn btn-sign-up going_btn" href="#">
+                    Đăng Ký tham gia đấu giá
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 p-2">
+              <div class="going-item">
+                <div class="going-item-img">
+                  <img src="img/bag.png" class="img-fluid" alt="" />
+                  <div class="going__overlay"></div>
+                    <div class="going__play">
+                      <a href="#">
+                        <h5>Thời kết thúc đăng ký</h5>
+                        <p>21/12/2021 08:30</p>
+                        <h5>Thời gian bắt đầu đấu giá </h5>
+                        <p>21/01/2022 08:30</p>
+                      </a>
+                    </div>
+                </div>
+                <div class="going-content">
+                  <p>Hàng Hiệu</p>
+                  <h3>
+                    Cáp đồng viễn thông các loại thanh lý dạng phế liệu của Viễn
+                    thông Cần Thơ
+                  </h3>
+                
+                  <div class="going-starting-price mt-1">
+                    <h4>2.000.0000.000đ</span></h4>
+                  </div>
+                  <a class="btn btn-sign-up going_btn" href="#">
+                    Đăng Ký tham gia đấu giá
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <!-- END GOING AUCTION  -->
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-4 pr-5 footer-contact">
+            <img class="w-100 mb-3" src="img/logo-white.png" alt="" />
+            <p class="mb-3">
+              Nếu bạn có bất kì câu hỏi nào, hãy liên hệ với chúng tôi quá địa
+              chỉ <span class="footer-email">dgdongsaigon@gmail.com</span>
+            </p>
+            <div class="footer-address mb-3">
+              <i class="bx bx-map"></i>
+              <p class="">693 Kha Vạn Cân, Linh Tây, Thủ Đức, TP.HCM</p>
+            </div>
+            <div class="footer-address mb-3">
+              <i class="bx bx-mobile"></i>
+              <p class="">028 66865120</p>
+            </div>
+            <div class="footer-social mb-3">
+              <a href="#" class="footer-social-item"
+                ><i class="bx bxl-facebook"></i
+              ></a>
+              <a href="#" class="footer-social-item"
+                ><i class="bx bxl-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-4 footer-item">
+            <h4>HỖ TRỢ KHÁCH HÀNG</h4>
+            <p>Liên hệ hỡ trợ</p>
+            <p>Những câu hỏi thường gặp</p>
+            <p>Chính sách bảo mật thông tin</p>
+            <p></p>
+          </div>
+          <div class="col-4 footer-item">
+            <h4>Về chúng tôi</h4>
+            <p>Giới thiệu</p>
+            <p>Tuyển dụng</p>
+            <p>Quy chế hoạt động</p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <p class="m-0">
+          2021 © Công ty Đấu giá hợp danh Đông Sài Gòn /
+          <a href="https://www.facebook.com/truongbien.qh"
+            >Web design by <span> Zuradel</span></a
+          >
+        </p>
+      </div>
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <!-- begin js danh mục -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".swiper", {
+        slidesPerView: 4,
+        spaceBetween: 20,
+        direction: getDirection(),
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        on: {
+          resize: function () {
+            swiper.changeDirection(getDirection());
+          },
+        },
+      });
+
+      function getDirection() {
+        var windowWidth = window.innerWidth;
+        var direction = window.innerWidth <= 760 ? "vertical" : "horizontal";
+
+        return direction;
+      }
+    </script>
+    <!-- end js danh mục  -->
+
+  </body>
+</html>
