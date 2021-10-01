@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/logo-title.png" type="image/x-icon" />
+    <title>Đông Sài Gòn</title>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- BOXICON -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0-beta.2/css/lightgallery.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.5/dist/sweetalert2.all.min.js"></script>
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="css/swiper.css" />
+    <!-- RESET CSS  -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/taisansapdaugia.css" />
+  </head>
+  <body>
+    <!-- BEGIN NAV -->
+    <header>
+      <div class="container p-0">
+        <nav id="nav" class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="/"
+            ><img
+              src="img/logo-white.png"
+              class="img-fluid"
+              style="width: 350px"
+              alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Đấu giá
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Tài sàn đang đấu giá</a>
+                  <a class="dropdown-item" href="#">Tài sản sắp đấu giá</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Liên hệ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Giới thiệu</a>
+              </li>
+              <li class="nav-item w-25">
+                <a class="btn btn-sign-in mr-1" href="#">Đăng nhập </a>
+                <a class="btn btn-sign-up" href="#">Đăng ký</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- END NAV -->
+    <main>
+      <section id="detail-link mt-4">
+        <div class="breadcrumb-noheading container">
+          <div class="breadcrumb" style="background-color: #fff">
+            <a href="/">Trang Chủ</a><i class="bx bx-chevron-right"></i>
+            <a href="/thuong-hieu">Mèo Cảnh</a
+            ><i class="bx bx-chevron-right"></i>
+            <a href="/thuong-hieu">Nhà, Chuồng, Nệm</a
+            ><i class="bx bx-chevron-right"></i>
+            <a href="#">Nhà mèo &amp; Nhà cây Cattree</a>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row product">
+            <div class="col-12">
+              <div class="product-title">
+                <i class="bx bxs-right-arrow mr-2"></i>
+                <h3>Tài sản sắp đấu giá</h3>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="product__name mb-3">
+                <h2>
+                  Xe ô tô con mang biển số 92A-167.22, nhãn hiệu Mazda, số khung
+                  RN2G47A6KM012921
+                </h2>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+            
+              <div class="slide-for" id="lightgallery">
+                <a class="slide-for-item" href="img/product-1-450x450.jpg">
+                  <img
+                    class="img-fluid w-100"
+                    src="img/product-1-450x450.jpg"
+                    alt=""
+                  />
+                </a>
+                <a class="slide-for-item" href="img/product-2-450x450.jpg">
+                  <img
+                    class="img-fluid w-100"
+                    src="img/product-2-450x450.jpg"
+                    alt=""
+                  />
+                </a>
+                <a class="slide-for-item" href="img/product-3-450x450.jpg">
+                  <img
+                    class="img-fluid w-100"
+                    src="img/product-3-450x450.jpg"
+                    alt=""
+                  />
+                </a>
+                <a class="slide-for-item" href="img/product-4-450x450.jpg">
+                  <img
+                    class="img-fluid w-100"
+                    src="img/product-4-450x450.jpg"
+                    alt=""
+                  />
+                </a>
+                <a class="slide-for-item" href="img/product-5-450x450.jpg">
+                  <img
+                    class="img-fluid w-100"
+                    src="img/product-5-450x450.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="bg_slide-nav">
+                <div class="slide-nav">
+                  <div class="slide-nav-item">
+                    <div class="slide-nav-item-img">
+                      <img
+                        class="img-fluid"
+                        src="img/product-1-450x450.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="slide-nav-item">
+                    <div class="slide-nav-item-img">
+                      <img
+                        class="img-fluid"
+                        src="img/product-2-450x450.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="slide-nav-item">
+                    <div class="slide-nav-item-img">
+                      <img
+                        class="img-fluid"
+                        src="img/product-3-450x450.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="slide-nav-item">
+                    <div class="slide-nav-item-img">
+                      <img
+                        class="img-fluid"
+                        src="img/product-4-450x450.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="slide-nav-item">
+                    <div class="slide-nav-item-img">
+                      <img
+                        class="img-fluid"
+                        src="img/product-5-450x450.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="product-content">
+                <div class="product-time">
+                  <p>Bắt đầu đấu giá trong: </h3>
+                    <h2>1 ngày 1 giờ 1 phút 1 giây</h2>
+                </div>
+                <div class="product-detail">
+                  <table class="table m-0">
+                  
+                    <tbody>
+                      <tr>
+                        <th style="width: 40%;" scope="row">Thời gian mở đăng ký:</th>
+                        <td >09/09/2021 08:00:00</td>
+                       
+                      </tr>
+                      <tr>
+                        <th scope="row">Thời gian kết thúc đăng ký:</th>
+                        <td>28/09/2021 17:00:00</td>
+                    
+                      </tr>
+                      <tr>
+                        <th scope="row">Phí đăng ký tham gia đấu giá:</th>
+                        <td>500.000 VNĐ</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Tiền đặt trước:</th>
+                        <td>785.300.000 VNĐ</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Bước giá:</th>
+                        <td>100.000 VNĐ/m²</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Tên chủ tài sản:</th>
+                        <td>Trung tâm Phát triển quỹ đất huyện Kiến Xương</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Nơi xem tài sản:</th>
+                        <td>Tại khu đô thị Quang Trung, thị trấn Kiến Xương, huyện Kiến Xương, tỉnh Thái Bình</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Thời gian xem tài sản:</th>
+                        <td>Ngày 23/9/2021 (trong giờ hành chính)</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Thời gian bắt đầu trả giá:</th>
+                        <td>01/10/2021 14:00:00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Thời gian kết thúc trả giá:</th>
+                        <td>01/10/2021 16:15:00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Giá khởi điểm</th>
+                        <td style="color:var(--btn-danger); font-weight: 700; ">2.000.000.000 VNĐ</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                </div>
+               
+              </div>
+              but
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 pr-5 footer-contact">
+            <img class="w-100 mb-3" src="img/logo-white.png" alt="" />
+            <p class="mb-3">
+              Nếu bạn có bất kì câu hỏi nào, hãy liên hệ với chúng tôi quá địa
+              chỉ <span class="footer-email">dgdongsaigon@gmail.com</span>
+            </p>
+            <div class="footer-address mb-3">
+              <i class="bx bx-map"></i>
+              <p class="">693 Kha Vạn Cân, Linh Tây, Thủ Đức, TP.HCM</p>
+            </div>
+            <div class="footer-address mb-3">
+              <i class="bx bx-mobile"></i>
+              <p class="">028 66865120</p>
+            </div>
+            <div class="footer-social mb-3">
+              <a href="#" class="footer-social-item"
+                ><i class="bx bxl-facebook"></i
+              ></a>
+              <a href="#" class="footer-social-item"
+                ><i class="bx bxl-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 footer-item">
+            <h4>HỖ TRỢ KHÁCH HÀNG</h4>
+            <p>Liên hệ hỡ trợ</p>
+            <p>Những câu hỏi thường gặp</p>
+            <p>Chính sách bảo mật thông tin</p>
+            <p></p>
+          </div>
+          <div class="col-12 col-md-4 footer-item">
+            <h4>Về chúng tôi</h4>
+            <p>Giới thiệu</p>
+            <p>Tuyển dụng</p>
+            <p>Quy chế hoạt động</p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <p class="m-0">
+          2021 © Công ty Đấu giá hợp danh Đông Sài Gòn /
+          <a href="https://www.facebook.com/truongbien.qh"
+            >Web design by <span> Zuradel</span></a
+          >
+        </p>
+      </div>
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.5/dist/sweetalert2.all.min.js"></script>
+    <!-- begin js danh mục -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0-beta.2/lightgallery.umd.min.js"></script>
+
+    <script type="text/javascript">
+      lightGallery(document.getElementById("lightgallery"), {
+        speed: 300,
+      });
+    </script>
+    <script>
+      $(".slide-for").slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        centerMode: true,
+        centerPadding: "60px",
+        arrows: false,
+        fade: true,
+        asNavFor: ".slide-nav",
+      });
+      $(".slide-nav").slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        prevArrow: false,
+        nextArrow: false,
+        asNavFor: ".slide-for",
+        dots: false,
+        centerMode: false,
+        focusOnSelect: true,
+        centerPadding: "0px",
+        prevArrow: '<i class="bx bx-chevron-left left"></i>',
+        nextArrow: '<i class="bx bx-chevron-right right"></i>',
+      });
+    </script>
+    <!-- end js danh mục  -->
+  </body>
+</html>
