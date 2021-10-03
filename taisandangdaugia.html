@@ -107,9 +107,9 @@
         <div class="container">
           <div class="row product">
             <div class="col-12">
-              <div class="product-title">
-                <i class="bx bxs-right-arrow mr-2"></i>
-                <h3>Tài sản sắp đấu giá</h3>
+              <div class="product-title-start">
+                <i class="bx bxs-circle mr-2"></i>
+                <h3>Tài sản đang đấu giá</h3>
               </div>
             </div>
             <div class="col-12">
@@ -121,7 +121,6 @@
               </div>
             </div>
             <div class="col-12 col-md-6">
-            
               <div class="slide-for" id="lightgallery">
                 <a class="slide-for-item" href="img/product-1-450x450.jpg">
                   <img
@@ -148,13 +147,6 @@
                   <img
                     class="img-fluid w-100"
                     src="img/product-4-450x450.jpg"
-                    alt=""
-                  />
-                </a>
-                <a class="slide-for-item" href="img/product-5-450x450.jpg">
-                  <img
-                    class="img-fluid w-100"
-                    src="img/product-5-450x450.jpg"
                     alt=""
                   />
                 </a>
@@ -197,92 +189,96 @@
                       />
                     </div>
                   </div>
-                  <div class="slide-nav-item">
-                    <div class="slide-nav-item-img">
-                      <img
-                        class="img-fluid"
-                        src="img/product-5-450x450.jpg"
-                        alt=""
-                      />
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
             <div class="col-12 col-md-6">
               <div class="product-content">
                 <div class="product-time">
-                  <p>Bắt đầu đấu giá trong: </h3>
-                    <h2>1 ngày 1 giờ 1 phút 1 giây</h2>
+                  <p>Đấu giá kết thúc trong trong:</p>
+                  <h2>1 ngày 1 giờ 1 phút 1 giây</h2>
                 </div>
-                <div class="product-detail">
+                <div class="product-starting p-2">
                   <table class="table m-0">
-                  
                     <tbody>
                       <tr>
-                        <th style="width: 40%;" scope="row">Mã tài sản</th>
-                        <td >MTS-1000345</td>
-                       
+                        <th class="border-0" style="width: 40%" scope="row">
+                          Giá khởi điểm:
+                        </th>
+                        <td class="border-0">1.000.000.000</td>
                       </tr>
                       <tr>
-                        <th scope="row">Thời gian mở đăng ký:</th>
-                        <td >09/09/2021 08:00:00</td>
-                       
-                      </tr>
-                      <tr>
-                        <th scope="row">Thời gian kết thúc đăng ký:</th>
-                        <td>28/09/2021 17:00:00</td>
-                    
-                      </tr>
-                      <tr>
-                        <th scope="row">Phí đăng ký tham gia đấu giá:</th>
-                        <td>500.000 VNĐ</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Tiền đặt trước:</th>
-                        <td>785.300.000 VNĐ</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Bước giá:</th>
-                        <td>100.000 VNĐ/m²</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Tên chủ tài sản:</th>
-                        <td>Trung tâm Phát triển quỹ đất huyện Kiến Xương</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Nơi xem tài sản:</th>
-                        <td>Tại khu đô thị Quang Trung, thị trấn Kiến Xương, huyện Kiến Xương, tỉnh Thái Bình</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Thời gian xem tài sản:</th>
-                        <td>Ngày 23/9/2021 (trong giờ hành chính)</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Thời gian bắt đầu trả giá:</th>
-                        <td>01/10/2021 14:00:00</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Thời gian kết thúc trả giá:</th>
-                        <td>01/10/2021 16:15:00</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Giá khởi điểm</th>
-                        <td style="color:var(--btn-danger); font-weight: 700; ">2.000.000.000 VNĐ</td>
+                        <th class="border-0" scope="row">Bước giá:</th>
+                        <td class="border-0">1.000.000</td>
                       </tr>
                     </tbody>
                   </table>
-
                 </div>
-               
-              </div>
-              <div class="row mt-2">
-                <div class="col-6">
-                  <button class="btn btn-sign-up w-100">Đăng ký đấu giá</button>
+                <div class="product-highest p-2">
+                  <table class="table m-0">
+                    <tbody>
+                      <tr>
+                        <th class="border-0" style="width: 40%" scope="row">
+                          Giá cao nhất hiện tại
+                        </th>
+                        <td
+                          class="border-0"
+                          style="color: var(--btn-danger); font-weight: 700"
+                        >
+                          2.000.000.000 VNĐ
+                        </td>
+                      </tr>
+                      <tr>
+                        <th class="border-0" scope="row">
+                          Số lượng người tham gia
+                        </th>
+                        <td class="border-0">20 <i class="bx bxs-user"></i></td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
-                <div class="col-6 d-flex justify-content-center align-items-center" >
-                  <p class="time-register">1 NGÀY 1 GIỜ 1 PHÚT 1 GIÂY</p>
-                </div>
+                <form class="p-2">
+                  <div class="row m-0">
+                    <div class="quantity col-7">
+                      <button
+                        onclick="this.parentNode.querySelector('input[type=number]').stepUp(); handleChangeNumber()"
+                        type="button"
+                        class="plus"
+                      >
+                        +
+                      </button>
+                      <input
+                        class="d-none"
+                        type="number"
+                        id="number"
+                        value="1000000000"
+                        min="1000000000"
+                        step="1000000"
+                        max=""
+                        pattern="([0-9]{1,3}).([0-9]{1,3})"
+                      />
+                      <input
+                        type="text"
+                        value=""
+                        id="display"
+                        readonly="False"
+                      />
+                      <button
+                        onclick="this.parentNode.querySelector('input[type=number]').stepDown(); handleChangeNumber()"
+                        type="button"
+                        class="minus"
+                      >
+                        -
+                      </button>
+                    </div>
+                    <div class="col-5 pr-0 h-100">
+                      <button type="submit" class="btn btn-sign-up w-100">
+                        Đặt Giá
+                      </button>
+                    </div>
+                  </div>
+                  <p id="word-money"></p>
+                </form>
               </div>
             </div>
           </div>
@@ -331,61 +327,59 @@
               role="tabpanel"
               aria-labelledby="nav-home-tab"
             >
-              Sint sit mollit irure quis est nostrud cillum consequat Lorem
-              esse do quis dolor esse fugiat sunt do. Eu ex commodo veniam
-              Lorem aliquip laborum occaecat qui Lorem esse mollit dolore anim
-              cupidatat. Deserunt officia id Lorem nostrud aute id commodo
-              elit eiusmod enim irure amet eiusmod qui reprehenderit nostrud
-              tempor. Fugiat ipsum excepteur in aliqua non et quis aliquip ad
-              irure in labore cillum elit enim. Consequat aliquip incididunt
-              ipsum et minim laborum laborum laborum et cillum labore.
-              Deserunt adipisicing cillum id nulla minim nostrud labore
-              eiusmod et amet. Laboris consequat consequat commodo non ut non
-              aliquip reprehenderit nulla anim occaecat. Sunt sit ullamco
-              reprehenderit irure ea ullamco Lorem aute nostrud magna.
-              esse do quis dolor esse fugiat sunt do. Eu ex commodo veniam
-              Lorem aliquip laborum occaecat qui Lorem esse mollit dolore anim
-              cupidatat. Deserunt officia id Lorem nostrud aute id commodo
-              elit eiusmod enim irure amet eiusmod qui reprehenderit nostrud
-              tempor. Fugiat ipsum excepteur in aliqua non et quis aliquip ad
-              irure in labore cillum elit enim. Consequat aliquip incididunt
-              ipsum et minim laborum laborum laborum et cillum labore.
-              Deserunt adipisicing cillum id nulla minim nostrud labore
-              eiusmod et amet. Laboris consequat consequat commodo non ut non
-              aliquip reprehenderit nulla anim occaecat. Sunt sit ullamco
-              reprehenderit irure ea ullamco Lorem aute nostrud magna.
-              esse do quis dolor esse fugiat sunt do. Eu ex commodo veniam
-              Lorem aliquip laborum occaecat qui Lorem esse mollit dolore anim
-              cupidatat. Deserunt officia id Lorem nostrud aute id commodo
-              elit eiusmod enim irure amet eiusmod qui reprehenderit nostrud
-              tempor. Fugiat ipsum excepteur in aliqua non et quis aliquip ad
-              irure in labore cillum elit enim. Consequat aliquip incididunt
-              ipsum et minim laborum laborum laborum et cillum labore.
-              Deserunt adipisicing cillum id nulla minim nostrud labore
-              eiusmod et amet. Laboris consequat consequat commodo non ut non
-              aliquip reprehenderit nulla anim occaecat. Sunt sit ullamco
-              reprehenderit irure ea ullamco Lorem aute nostrud magna.
-              esse do quis dolor esse fugiat sunt do. Eu ex commodo veniam
-              Lorem aliquip laborum occaecat qui Lorem esse mollit dolore anim
-              cupidatat. Deserunt officia id Lorem nostrud aute id commodo
-              elit eiusmod enim irure amet eiusmod qui reprehenderit nostrud
-              tempor. Fugiat ipsum excepteur in aliqua non et quis aliquip ad
-              irure in labore cillum elit enim. Consequat aliquip incididunt
-              ipsum et minim laborum laborum laborum et cillum labore.
-              Deserunt adipisicing cillum id nulla minim nostrud labore
-              eiusmod et amet. Laboris consequat consequat commodo non ut non
-              aliquip reprehenderit nulla anim occaecat. Sunt sit ullamco
-              reprehenderit irure ea ullamco Lorem aute nostrud magna.
-              esse do quis dolor esse fugiat sunt do. Eu ex commodo veniam
-              Lorem aliquip laborum occaecat qui Lorem esse mollit dolore anim
-              cupidatat. Deserunt officia id Lorem nostrud aute id commodo
-              elit eiusmod enim irure amet eiusmod qui reprehenderit nostrud
-              tempor. Fugiat ipsum excepteur in aliqua non et quis aliquip ad
-              irure in labore cillum elit enim. Consequat aliquip incididunt
-              ipsum et minim laborum laborum laborum et cillum labore.
-              Deserunt adipisicing cillum id nulla minim nostrud labore
-              eiusmod et amet. Laboris consequat consequat commodo non ut non
-              aliquip reprehenderit nulla anim occaecat. Sunt sit ullamco
+              Sint sit mollit irure quis est nostrud cillum consequat Lorem esse
+              do quis dolor esse fugiat sunt do. Eu ex commodo veniam Lorem
+              aliquip laborum occaecat qui Lorem esse mollit dolore anim
+              cupidatat. Deserunt officia id Lorem nostrud aute id commodo elit
+              eiusmod enim irure amet eiusmod qui reprehenderit nostrud tempor.
+              Fugiat ipsum excepteur in aliqua non et quis aliquip ad irure in
+              labore cillum elit enim. Consequat aliquip incididunt ipsum et
+              minim laborum laborum laborum et cillum labore. Deserunt
+              adipisicing cillum id nulla minim nostrud labore eiusmod et amet.
+              Laboris consequat consequat commodo non ut non aliquip
+              reprehenderit nulla anim occaecat. Sunt sit ullamco reprehenderit
+              irure ea ullamco Lorem aute nostrud magna. esse do quis dolor esse
+              fugiat sunt do. Eu ex commodo veniam Lorem aliquip laborum
+              occaecat qui Lorem esse mollit dolore anim cupidatat. Deserunt
+              officia id Lorem nostrud aute id commodo elit eiusmod enim irure
+              amet eiusmod qui reprehenderit nostrud tempor. Fugiat ipsum
+              excepteur in aliqua non et quis aliquip ad irure in labore cillum
+              elit enim. Consequat aliquip incididunt ipsum et minim laborum
+              laborum laborum et cillum labore. Deserunt adipisicing cillum id
+              nulla minim nostrud labore eiusmod et amet. Laboris consequat
+              consequat commodo non ut non aliquip reprehenderit nulla anim
+              occaecat. Sunt sit ullamco reprehenderit irure ea ullamco Lorem
+              aute nostrud magna. esse do quis dolor esse fugiat sunt do. Eu ex
+              commodo veniam Lorem aliquip laborum occaecat qui Lorem esse
+              mollit dolore anim cupidatat. Deserunt officia id Lorem nostrud
+              aute id commodo elit eiusmod enim irure amet eiusmod qui
+              reprehenderit nostrud tempor. Fugiat ipsum excepteur in aliqua non
+              et quis aliquip ad irure in labore cillum elit enim. Consequat
+              aliquip incididunt ipsum et minim laborum laborum laborum et
+              cillum labore. Deserunt adipisicing cillum id nulla minim nostrud
+              labore eiusmod et amet. Laboris consequat consequat commodo non ut
+              non aliquip reprehenderit nulla anim occaecat. Sunt sit ullamco
+              reprehenderit irure ea ullamco Lorem aute nostrud magna. esse do
+              quis dolor esse fugiat sunt do. Eu ex commodo veniam Lorem aliquip
+              laborum occaecat qui Lorem esse mollit dolore anim cupidatat.
+              Deserunt officia id Lorem nostrud aute id commodo elit eiusmod
+              enim irure amet eiusmod qui reprehenderit nostrud tempor. Fugiat
+              ipsum excepteur in aliqua non et quis aliquip ad irure in labore
+              cillum elit enim. Consequat aliquip incididunt ipsum et minim
+              laborum laborum laborum et cillum labore. Deserunt adipisicing
+              cillum id nulla minim nostrud labore eiusmod et amet. Laboris
+              consequat consequat commodo non ut non aliquip reprehenderit nulla
+              anim occaecat. Sunt sit ullamco reprehenderit irure ea ullamco
+              Lorem aute nostrud magna. esse do quis dolor esse fugiat sunt do.
+              Eu ex commodo veniam Lorem aliquip laborum occaecat qui Lorem esse
+              mollit dolore anim cupidatat. Deserunt officia id Lorem nostrud
+              aute id commodo elit eiusmod enim irure amet eiusmod qui
+              reprehenderit nostrud tempor. Fugiat ipsum excepteur in aliqua non
+              et quis aliquip ad irure in labore cillum elit enim. Consequat
+              aliquip incididunt ipsum et minim laborum laborum laborum et
+              cillum labore. Deserunt adipisicing cillum id nulla minim nostrud
+              labore eiusmod et amet. Laboris consequat consequat commodo non ut
+              non aliquip reprehenderit nulla anim occaecat. Sunt sit ullamco
               reprehenderit irure ea ullamco Lorem aute nostrud magna.
             </div>
             <div
@@ -394,18 +388,18 @@
               role="tabpanel"
               aria-labelledby="nav-profile-tab"
             >
-              Sint sit mollit irure quis est nostrud cillum consequat Lorem
-              esse do quis dolor esse fugiat sunt do. Eu ex commodo veniam
-              Lorem aliquip laborum occaecat qui Lorem esse mollit dolore anim
-              cupidatat. Deserunt officia id Lorem nostrud aute id commodo
-              elit eiusmod enim irure amet eiusmod qui reprehenderit nostrud
-              tempor. Fugiat ipsum excepteur in aliqua non et quis aliquip ad
-              irure in labore cillum elit enim. Consequat aliquip incididunt
-              ipsum et minim laborum laborum laborum et cillum labore.
-              Deserunt adipisicing cillum id nulla minim nostrud labore
-              eiusmod et amet. Laboris consequat consequat commodo non ut non
-              aliquip reprehenderit nulla anim occaecat. Sunt sit ullamco
-              reprehenderit irure ea ullamco Lorem aute nostrud magna.
+              Sint sit mollit irure quis est nostrud cillum consequat Lorem esse
+              do quis dolor esse fugiat sunt do. Eu ex commodo veniam Lorem
+              aliquip laborum occaecat qui Lorem esse mollit dolore anim
+              cupidatat. Deserunt officia id Lorem nostrud aute id commodo elit
+              eiusmod enim irure amet eiusmod qui reprehenderit nostrud tempor.
+              Fugiat ipsum excepteur in aliqua non et quis aliquip ad irure in
+              labore cillum elit enim. Consequat aliquip incididunt ipsum et
+              minim laborum laborum laborum et cillum labore. Deserunt
+              adipisicing cillum id nulla minim nostrud labore eiusmod et amet.
+              Laboris consequat consequat commodo non ut non aliquip
+              reprehenderit nulla anim occaecat. Sunt sit ullamco reprehenderit
+              irure ea ullamco Lorem aute nostrud magna.
             </div>
             <div
               class="tab-pane fade"
@@ -413,18 +407,18 @@
               role="tabpanel"
               aria-labelledby="nav-contact-tab"
             >
-              Sint sit mollit irure quis est nostrud cillum consequat Lorem
-              esse do quis dolor esse fugiat sunt do. Eu ex commodo veniam
-              Lorem aliquip laborum occaecat qui Lorem esse mollit dolore anim
-              cupidatat. Deserunt officia id Lorem nostrud aute id commodo
-              elit eiusmod enim irure amet eiusmod qui reprehenderit nostrud
-              tempor. Fugiat ipsum excepteur in aliqua non et quis aliquip ad
-              irure in labore cillum elit enim. Consequat aliquip incididunt
-              ipsum et minim laborum laborum laborum et cillum labore.
-              Deserunt adipisicing cillum id nulla minim nostrud labore
-              eiusmod et amet. Laboris consequat consequat commodo non ut non
-              aliquip reprehenderit nulla anim occaecat. Sunt sit ullamco
-              reprehenderit irure ea ullamco Lorem aute nostrud magna.
+              Sint sit mollit irure quis est nostrud cillum consequat Lorem esse
+              do quis dolor esse fugiat sunt do. Eu ex commodo veniam Lorem
+              aliquip laborum occaecat qui Lorem esse mollit dolore anim
+              cupidatat. Deserunt officia id Lorem nostrud aute id commodo elit
+              eiusmod enim irure amet eiusmod qui reprehenderit nostrud tempor.
+              Fugiat ipsum excepteur in aliqua non et quis aliquip ad irure in
+              labore cillum elit enim. Consequat aliquip incididunt ipsum et
+              minim laborum laborum laborum et cillum labore. Deserunt
+              adipisicing cillum id nulla minim nostrud labore eiusmod et amet.
+              Laboris consequat consequat commodo non ut non aliquip
+              reprehenderit nulla anim occaecat. Sunt sit ullamco reprehenderit
+              irure ea ullamco Lorem aute nostrud magna.
             </div>
           </div>
         </div>
@@ -441,14 +435,14 @@
                 <div class="going-item-img">
                   <img src="img/bag.png" class="img-fluid" alt="" />
                   <div class="going__overlay"></div>
-                    <div class="going__play">
-                      <a href="#">
-                        <h5>Thời kết thúc đăng ký</h5>
-                        <p>21/12/2021 08:30</p>
-                        <h5>Thời gian bắt đầu đấu giá </h5>
-                        <p>21/01/2022 08:30</p>
-                      </a>
-                    </div>
+                  <div class="going__play">
+                    <a href="#">
+                      <h5>Thời kết thúc đăng ký</h5>
+                      <p>21/12/2021 08:30</p>
+                      <h5>Thời gian bắt đầu đấu giá</h5>
+                      <p>21/01/2022 08:30</p>
+                    </a>
+                  </div>
                 </div>
                 <div class="going-content">
                   <p>Hàng Hiệu</p>
@@ -456,9 +450,9 @@
                     Cáp đồng viễn thông các loại thanh lý dạng phế liệu của Viễn
                     thông Cần Thơ
                   </h3>
-                
+
                   <div class="going-starting-price mt-1">
-                    <h4>2.000.0000.000đ</span></h4>
+                    <h4>2.000.0000.000đ</h4>
                   </div>
                   <a class="btn btn-sign-up going_btn" href="#">
                     Đăng Ký tham gia đấu giá
@@ -471,14 +465,14 @@
                 <div class="going-item-img">
                   <img src="img/bag.png" class="img-fluid" alt="" />
                   <div class="going__overlay"></div>
-                    <div class="going__play">
-                      <a href="#">
-                        <h5>Thời kết thúc đăng ký</h5>
-                        <p>21/12/2021 08:30</p>
-                        <h5>Thời gian bắt đầu đấu giá </h5>
-                        <p>21/01/2022 08:30</p>
-                      </a>
-                    </div>
+                  <div class="going__play">
+                    <a href="#">
+                      <h5>Thời kết thúc đăng ký</h5>
+                      <p>21/12/2021 08:30</p>
+                      <h5>Thời gian bắt đầu đấu giá</h5>
+                      <p>21/01/2022 08:30</p>
+                    </a>
+                  </div>
                 </div>
                 <div class="going-content">
                   <p>Hàng Hiệu</p>
@@ -486,9 +480,9 @@
                     Cáp đồng viễn thông các loại thanh lý dạng phế liệu của Viễn
                     thông Cần Thơ
                   </h3>
-                
+
                   <div class="going-starting-price mt-1">
-                    <h4>2.000.0000.000đ</span></h4>
+                    <h4>2.000.0000.000đ</h4>
                   </div>
                   <a class="btn btn-sign-up going_btn" href="#">
                     Đăng Ký tham gia đấu giá
@@ -501,14 +495,14 @@
                 <div class="going-item-img">
                   <img src="img/bag.png" class="img-fluid" alt="" />
                   <div class="going__overlay"></div>
-                    <div class="going__play">
-                      <a href="#">
-                        <h5>Thời kết thúc đăng ký</h5>
-                        <p>21/12/2021 08:30</p>
-                        <h5>Thời gian bắt đầu đấu giá </h5>
-                        <p>21/01/2022 08:30</p>
-                      </a>
-                    </div>
+                  <div class="going__play">
+                    <a href="#">
+                      <h5>Thời kết thúc đăng ký</h5>
+                      <p>21/12/2021 08:30</p>
+                      <h5>Thời gian bắt đầu đấu giá</h5>
+                      <p>21/01/2022 08:30</p>
+                    </a>
+                  </div>
                 </div>
                 <div class="going-content">
                   <p>Hàng Hiệu</p>
@@ -516,9 +510,9 @@
                     Cáp đồng viễn thông các loại thanh lý dạng phế liệu của Viễn
                     thông Cần Thơ
                   </h3>
-                
+
                   <div class="going-starting-price mt-1">
-                    <h4>2.000.0000.000đ</span></h4>
+                    <h4>2.000.0000.000đ</h4>
                   </div>
                   <a class="btn btn-sign-up going_btn" href="#">
                     Đăng Ký tham gia đấu giá
@@ -624,5 +618,6 @@
       });
     </script>
     <!-- end js danh mục  -->
+    <script src="js/numbertomoney.js"></script>
   </body>
 </html>
