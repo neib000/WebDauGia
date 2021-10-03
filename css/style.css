@@ -395,7 +395,7 @@ header #nav .nav-item:last-child {
 }
 .slide-nav .slide-nav-item img {
   object-fit: cover;
-  height: 100px;
+  height: 150px;
   width: 100%;
 }
 
