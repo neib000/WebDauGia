@@ -25,6 +25,9 @@ header #nav .nav-item:not(:last-child) {
 header #nav .nav-item:last-child {
   display: flex;
 }
+#nav .navbar-brand img {
+  width: 350px;
+}
 .btn-sign-in {
   flex: 1;
   border: 2px solid var(--primary-color);
@@ -199,7 +202,10 @@ header #nav .nav-item:last-child {
   position: absolute;
   left: 5%;
   bottom: 0;
-  width: 50%;
+  width: 60%;
+}
+#auctioning .auctioning-item .col-12.col-sm-8 {
+  padding-left: 0;
 }
 #auctioning .auctioning-highest {
   font-size: 1.2rem;
@@ -209,8 +215,8 @@ header #nav .nav-item:last-child {
   height: 50px;
   display: flex;
   align-items: center;
-  justify-content: end;
-  padding-right: 15px;
+  justify-content: center;
+
   position: relative;
   border-radius: var(--border-radius);
   background-color: var(--bg-item);
@@ -458,6 +464,18 @@ header #nav .nav-item:last-child {
   overflow: hidden;
   border: 1px solid var(--primary-color);
   border-radius: var(--border-radius);
+}
+.product-bid {
+  padding: 10px;
+  color: var(--text-color);
+  border: 1px solid var(--primary-color);
+  background-color: var(--primary-color);
+}
+.product-bid h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-align: center;
 }
 .product-time {
   padding: 10px;
@@ -716,10 +734,57 @@ footer .footer-copyright a:hover {
   }
 }
 @media (max-width: 575.98px) {
+  #nav .navbar-brand img {
+    width: 270px;
+  }
   header nav.navbar {
     margin: 0;
   }
   header nav.navbar {
     margin: 0;
+  }
+  .product-content form .btn-sign-up {
+    margin-top: 0.5rem;
+  }
+  #auctioning .auctioning-content {
+    position: relative;
+    left: 0;
+    width: 100% !important;
+  }
+  #auctioning .auctioning-item .col-12.col-sm-8 {
+    padding: 0 15px;
+  }
+  #auctioning .auctioning-highest {
+    margin-top: 0.5rem;
+    padding-left: 40px;
+  }
+  #auctioning .auctioning-highest a > img {
+    transform: translate(-10%, -50%);
+  }
+  #auctioning .auctioning-title,
+  .going-title {
+    transform: translate(5%, -50%);
+  }
+}
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 1199.98px) {
+  #auctioning .auctioning-content {
+    width: 90%;
+  }
+  .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+  }
+  #auctioning,
+  #going {
+    padding: 0 15px;
+  }
+  .container {
+    max-width: 1140px;
   }
 }

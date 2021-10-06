@@ -1,7 +1,6 @@
 function handleChangeNumber() {
   var input = document.getElementById("number");
   document.getElementById("display").value = formatCash(input.value);
-  console.log(input.value);
   DocTienBangChu(input.value);
 }
 
